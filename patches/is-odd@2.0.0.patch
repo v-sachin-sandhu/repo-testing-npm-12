@@ -1,7 +1,8 @@
---- a/index.js
-+++ b/index.js
-@@ -1,3 +1,4 @@
+--- a/index.js	
++++ b/index.js	
+@@ -17,4 +17,5 @@
+     throw new RangeError('is-odd expects an integer.');
+   }
+   return !!(~~i & 1);
+ };
 +// patched
- module.exports = function isOdd(value) {
-   var n = Math.abs(value);
-   return (n % 2) === 1;
