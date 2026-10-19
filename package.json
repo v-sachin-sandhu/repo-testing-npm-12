@@ -1,0 +1,11 @@
+{
+  "name": "lockfile-v4-repro",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "is-odd": "2.0.0"
+  },
+  "patchDependencies": {
+    "is-odd@2.0.0": "patches/is-odd@2.0.0.patch"
+  }
+}
