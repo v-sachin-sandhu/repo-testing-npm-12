@@ -1,8 +1,0 @@
---- a/index.js	
-+++ b/index.js	
-@@ -17,4 +17,5 @@
-     throw new RangeError('is-odd expects an integer.');
-   }
-   return !!(~~i & 1);
- };
-+// patched

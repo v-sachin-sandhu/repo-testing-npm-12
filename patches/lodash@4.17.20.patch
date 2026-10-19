@@ -1,0 +1,8 @@
+--- a/lodash.js	
++++ b/lodash.js	
+@@ -17158,4 +17158,5 @@
+     // Export to the global object.
+     root._ = _;
+   }
+ }.call(this));
++// patched

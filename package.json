@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "is-odd": "2.0.0"
-  },
-  "patchDependencies": {
-    "is-odd@2.0.0": "patches/is-odd@2.0.0.patch"
+    "lodash": "4.17.20"
   },
   "patchedDependencies": {
-    "is-odd@2.0.0": "patches/is-odd@2.0.0.patch"
+    "lodash@4.17.20": "patches/lodash@4.17.20.patch"
   }
 }
