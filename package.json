@@ -7,5 +7,8 @@
   },
   "patchDependencies": {
     "is-odd@2.0.0": "patches/is-odd@2.0.0.patch"
+  },
+  "patchedDependencies": {
+    "is-odd@2.0.0": "patches/is-odd@2.0.0.patch"
   }
 }
